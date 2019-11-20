@@ -1,6 +1,6 @@
+Retrofit2
 API
 JSON
-Retrofit2
 Glide
 RecyclerView
 Design
