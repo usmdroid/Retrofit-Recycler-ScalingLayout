@@ -46,9 +46,7 @@ public class open extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
+            public void onClick(View v) {   onBackPressed();    }
         });
 
         open_title.setText(name);
