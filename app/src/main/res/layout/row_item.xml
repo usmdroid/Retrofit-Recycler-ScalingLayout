@@ -13,7 +13,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
         android:src="@mipmap/ic_launcher"
         android:id="@+id/image_item"
@@ -24,7 +24,7 @@
     <RelativeLayout
         android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="15dp"
         android:layout_marginTop="20dp"
         android:layout_alignParentRight="true">
 
@@ -36,7 +36,7 @@
         android:textColor="@color/colorPrimaryDark"
         android:text="Captain America"
         android:layout_centerHorizontal="true"
-        android:textSize="30sp"
+        android:textSize="28sp"
         />
 
     <TextView
