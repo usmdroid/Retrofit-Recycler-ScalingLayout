@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_lay"
+    android:layout_margin="5dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:id="@+id/item">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image_item"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#9906151B"
+        />
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/name_item"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Captain America"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitan Rogers"
+        android:textSize="20dp"
+        android:id="@+id/realname_item"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/name_item"
+        android:layout_centerHorizontal="true"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1995"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/time_item"
+            android:layout_below="@+id/realname_item"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
