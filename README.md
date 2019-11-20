@@ -1,4 +1,4 @@
-API\n
+API
 JSON
 Retrofit2
 Glide
